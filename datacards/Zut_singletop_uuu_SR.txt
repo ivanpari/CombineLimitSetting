@@ -11,7 +11,7 @@ bin 		BDT_singletop_uuu
 observation	-1
 -------------------------------------------------
 bin 		BDT_singletop_uuu 	BDT_singletop_uuu						BDT_singletop_uuu			BDT_singletop_uuu	BDT_singletop_uuu	BDT_singletop_uuu	BDT_singletop_uuu	BDT_singletop_uuu	BDT_singletop_uuu				BDT_singletop_uuu				BDT_singletop_uuu			BDT_singletop_uuu				BDT_singletop_uuu		BDT_singletop_uuu			BDT_singletop_uuu	BDT_singletop_uuu	BDT_singletop_uuu			
-process		NP_overlay_TT_FCNC-aT2ZJ_Tleptonic_ZToll_kappa_zut	NP_overlay_TT_FCNC_T2ZJ_aTleptonic_ZToll_kappa_zut	NP_overlay_ST_FCNC_zut	FakeMu	tZq	ttWJets	ttZ	ZZTo4L	WZTo3LNu_2Jets_MLL-4To50	WZTo3LNu_3Jets_MLL-4To50	WZTo3LNu_0Jets_MLL50	WZTo3LNu_1Jets_MLL50	WZTo3LNu_2Jets_MLL50	WZTo3LNu_3Jets_MLL50	WZZ_amc	tWll	STtW_atop
+process		NP_overlay_TT_FCNC-aT2ZJ_Tleptonic_ZToll_kappa_zut	NP_overlay_TT_FCNC_T2ZJ_aTleptonic_ZToll_kappa_zut	NP_overlay_ST_FCNC_zut	FakeMu	tZq	TTWJetsToLNu_amc	TTZToLLNuNu_amc	ZZTo4L	WZTo3LNu_2Jets_MLL-4To50	WZTo3LNu_3Jets_MLL-4To50	WZTo3LNu_0Jets_MLL50	WZTo3LNu_1Jets_MLL50	WZTo3LNu_2Jets_MLL50	WZTo3LNu_3Jets_MLL50	WZZ_amc	tWll	STtW_atop	 
 process		-3	-2							-1			1	2	3	4	5	6				7				8				9			 10			11			12			13	14						
 rate		-1  	-1 	-1			-1	-1	-1		-1	-1				-1				-1				-1			 -1			-1			-1			-1	-1	-1					
 -----------------------------------------------
@@ -29,5 +29,11 @@ btagSF_lf 	shape  	1	1	1	-	1	1	1	1	1	1	1	1	1	1	1	1	1 	1
 btagSF_lfstats1 shape  	1	1	1	-	1	1	1	1	1	1	1	1	1	1	1	1	1 	1
 btagSF_lfstats2 shape  	1	1	1	-	1	1	1	1	1	1	1	1	1	1	1	1	1 	1
 lumi		lnN	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025
-xsecWZ		lnN	- 	- 	-	-	-	-	-	-	-	1.03	1.03	1.03	1.03	1.03	1.03	-	-	-
-xsecFake	lnN	-	-	-	3.	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+------------------------------------------------
+fakeMunorm 	rateParam	BDT_singletop_uuu  	FakeMu 1
+WZnorm 		rateParam	BDT_singletop_uuu 	WZTo3LNu_0Jets_MLL50 1
+WZnorm 		rateParam	BDT_singletop_uuu	WZTo3LNu_1Jets_MLL50 1
+WZnorm 		rateParam	BDT_singletop_uuu	WZTo3LNu_2Jets_MLL50 1
+WZnorm 		rateParam	BDT_singletop_uuu	WZTo3LNu_3Jets_MLL50 1
+WZnorm 		rateParam	BDT_singletop_uuu	WZTo3LNu_2Jets_MLL-4To50 1
+WZnorm 		rateParam	BDT_singletop_uuu	WZTo3LNu_3Jets_MLL-4To50 1
