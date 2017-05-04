@@ -4,13 +4,13 @@ imax 1 number of observables (channels or bins)
 jmax * number of backgrounds
 kmax * number of nuisance parameters
 ---------------------------------------------------
-shapes * 	*  rootfiles/Zut_singletop/Reader_Zut_singletop.root Zut_$CHANNEL_$PROCESS_80X  Zut_$CHANNEL_$PROCESS_80X_$SYSTEMATIC
-shapes data_obs *  rootfiles/Zut_singletop/Reader_Zut_singletop.root Zut_BDT_singletop_uuu_data_obs
+shapes * 	*  rootfiles/Zut_toppair/Reader_Zut_toppair.root Zut_$CHANNEL_$PROCESS_80X  Zut_$CHANNEL_$PROCESS_80X_$SYSTEMATIC
+shapes data_obs *  rootfiles/Zut_toppair/Reader_Zut_toppair.root Zut_BDT_toppair_uuu_data_obs
 --------------------------------------------------
-bin 		BDT_singletop_uuu
+bin 		BDT_toppair_uuu
 observation	-1
 -------------------------------------------------
-bin 			BDT_singletop_uuu					BDT_singletop_uuu					BDT_singletop_uuu 	BDT_singletop_uuu 	BDT_singletop_uuu 	BDT_singletop_uuu 		   	
+bin 			BDT_toppair_uuu						BDT_toppair_uuu						BDT_toppair_uuu 	BDT_toppair_uuu 	BDT_toppair_uuu 	BDT_toppair_uuu 		   	
 process			NP_overlay_TT_FCNC-aT2ZJ_Tleptonic_ZToll_kappa_zut	NP_overlay_TT_FCNC_T2ZJ_aTleptonic_ZToll_kappa_zut	NP_overlay_ST_FCNC_zut	FakeMu			tZq			WZJTo3LNu_amc	
 process			0							0							0			1			2			3						  		
 rate			-1							-1							-1  			-1 			-1			-1					  			
@@ -29,7 +29,6 @@ btagSF_hfstats2 shape  	1							1							1			-			1			1
 btagSF_lf	shape  	1							1							1			-			1			1				
 btagSF_lfstats1 shape  	1							1							1			-			1			1				
 btagSF_lfstats2 shape  	1							1							1			-			1			1			
-									
 						
 ------------------------------------------------
-fakeMunorm 	rateParam	BDT_singletop_uuu	FakeMu 				1
+fakeMunorm 	rateParam	BDT_toppair_uuu	FakeMu 				1

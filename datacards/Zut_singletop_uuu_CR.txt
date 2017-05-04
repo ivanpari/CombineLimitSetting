@@ -30,7 +30,7 @@ btagSF_lfstats1 shape  	1		1	-	1	1	1	1	1	1	1	1	1	1	1	1	1
 btagSF_lfstats2 shape  	1		1	-	1	1	1	1	1	1	1	1	1	1	1	1	1 	
 lumi		lnN	1.025		1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	1.025	
 ------------------------------------------------
-fakeMunorm 	rateParam	MTW_uuu	FakeMu 				0
+fakeMunorm 	rateParam	MTW_uuu	FakeMu 				0.01
 WZnorm 		rateParam	MTW_uuu	WZTo3LNu_0Jets_MLL50 		1
 WZnorm 		rateParam	MTW_uuu	WZTo3LNu_1Jets_MLL50		1
 WZnorm 		rateParam	MTW_uuu	WZTo3LNu_2Jets_MLL50		1
