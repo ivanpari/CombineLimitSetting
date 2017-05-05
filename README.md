@@ -5,13 +5,12 @@ Go to
  /user/ivanpari/CombineLimitSetting/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit
  
  combine cards
- combineCards.py datacards/Zut_singletop_uuu_BRtest.txt datacards/Zut_singletop_uuu_SR.txt > Zut_singletop_uuu.txt
+ >  combineCards.py datacards/Zut_singletop_uuu_BRtest.txt datacards/Zut_singletop_uuu_SR.txt > Zut_singletop_uuu.txt
 
  
  
  Run combine tool 
- combine -M Asymptotic datacards/uuu.txt -N nameoutputfile
-
+ >  combine -M Asymptotic datacards/uuu.txt -N nameoutputfile
 
 
 Make a workspace of your datacard: (is safer than .txt )
@@ -42,5 +41,7 @@ Get Nuissance parameter impacts:
    
    
    
+ Pre approval checks: 
+ see https://twiki.cern.ch/twiki/bin/view/CMS/HiggsWG/HiggsPAGPreapprovalChecks
  
  
