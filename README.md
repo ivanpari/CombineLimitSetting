@@ -45,3 +45,7 @@ Get Nuissance parameter impacts:
  see https://twiki.cern.ch/twiki/bin/view/CMS/HiggsWG/HiggsPAGPreapprovalChecks
  
  
+Tutorial:
+- https://indico.cern.ch/event/587542/contributions/2368219/attachments/1371995/2081333/TopPAG_HComb_Nov15.pdf
+- CMS DAS: https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchool2014HiggsCombPropertiesExercise#Intro_I_The_Higgs_at_CMS
+- also: https://twiki.cern.ch/twiki/bin/viewauth/CMS/HiggsWG/SWGuideNonStandardCombineUses --> rateparam / look elsewhere / .. 
