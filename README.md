@@ -14,7 +14,7 @@ Go to
 
 
 
-Make a workspace of your datacard: 
+Make a workspace of your datacard: (is safer than .txt )
  > text2workspace.py datacard.txt -m 125 -o datacard.root
  
 
@@ -24,23 +24,19 @@ Get an idea of the signal strength vales we need to build test-stat distrubution
  
 Use Hybrid New method: 
   > combineTool.py -M HybridNew -d datacard.root --testStat LHC --freq --singlePoint rmin:rmax:stepsize -T 2000 -s -1 --saveToys --saveHybridResult 
+  ignore: [#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
   
 Get Nuissance parameter impacts: 
-  For the full package with additional features, use;
-  > cd $CMSSW_BASE/src
-   > git clone https://github.com/cms-analysis/CombineHarvester.git CombineHarvester
-   > cd CombineHarvester
-   > scram b -j 6
-   Note that you will need to make sure the HiggsAnalysis/CombinedLimit package is up to date on the default branch with at least the tag            
-   v5.0.3 checked out.
-
    Fit for each POI 
    > combineTool.py -M Impacts -d datacard.root -m 125 --doInitialFit --robustFit 1
-   Scan each nuissance parameter
+  
+  Scan each nuissance parameter
    > combineTool.py -M Impacts -d datacard.root -m 125 --robustFit 1 --doFits --parallel x
+   
    Combine output into a JSON file
    > combineTool.py -M Impacts -d datacard.root -m 125 -o impacts.json
-   Plot summarising the nuissance parameter pulls and impacts
+  
+  Plot summarising the nuissance parameter pulls and impacts
    > plotImpacts.py -i impacts.json -o impacts
    
    
