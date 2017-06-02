@@ -44,6 +44,10 @@ Get Nuissance parameter impacts:
  Pre approval checks: 
  see https://twiki.cern.ch/twiki/bin/view/CMS/HiggsWG/HiggsPAGPreapprovalChecks
  
+ Run without nuissance parameters: 
+   run the limit tool with no systematics (option -S 0).
+ 
+ Get the rate parameters: -v 3
  
 Tutorial:
 - https://indico.cern.ch/event/587542/contributions/2368219/attachments/1371995/2081333/TopPAG_HComb_Nov15.pdf
