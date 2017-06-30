@@ -167,3 +167,76 @@ best fit parameter values:
        r_WZ :    +0.841
 Done in 0.00 min (cpu), 0.00 min (real)
 [ivanpari@m2] 18:04 /user/ivanpari/CombineLimitSetting/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit > 
+
+
+[ivanpari@m2] 19:37 /user/ivanpari/CombineLimitSetting/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit > combine -M MultiDimFit MTW_fakes.root -S 0 --algo=singles --cl=0.68
+>>> no systematics included
+>>> method used to compute upper limit is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+Computing limit starting from observation
+PDF didn't factorize!
+Parameters: 
+  1) RooRealVar:: n_exp_binch1_MTW_fakeEl_eee_proc_TTWJetsToLNu_amc = 0.0404771
+  2) RooRealVar::  n_exp_binch1_MTW_fakeEl_eee_proc_TTZToLLNuNu_amc = 1.51474
+  3) RooRealVar::          n_exp_binch1_MTW_fakeEl_eee_proc_WZZ_amc = 0.465061
+  4) RooRealVar::           n_exp_binch1_MTW_fakeEl_eee_proc_ZZTo4L = 5.67441
+  5) RooRealVar::          n_exp_binch1_MTW_fakeEl_eee_proc_ZZZ_amc = 0.0942108
+  6) RooRealVar::              n_exp_binch1_MTW_fakeEl_eee_proc_tHq = 0.000217761
+  7) RooRealVar::             n_exp_binch1_MTW_fakeEl_eee_proc_tWll = 0.0449912
+  8) RooRealVar::          n_exp_binch1_MTW_fakeEl_eee_proc_tZq_amc = 0.850963
+  9) RooRealVar::       n_exp_binch1_MTW_fakeEl_eee_proc_ttHToNonbb = 0.0405961
+ 10) RooRealVar::        n_exp_binch1_MTW_fakeEl_uue_proc_STtW_atop = 0.19979
+ 11) RooRealVar::         n_exp_binch1_MTW_fakeEl_uue_proc_STtW_top = 0.280902
+ 12) RooRealVar:: n_exp_binch1_MTW_fakeEl_uue_proc_TTWJetsToLNu_amc = 0.129945
+ 13) RooRealVar::  n_exp_binch1_MTW_fakeEl_uue_proc_TTZToLLNuNu_amc = 2.86244
+ 14) RooRealVar::          n_exp_binch1_MTW_fakeEl_uue_proc_WZZ_amc = 1.04641
+ 15) RooRealVar::           n_exp_binch1_MTW_fakeEl_uue_proc_ZZTo4L = 14.8505
+ 16) RooRealVar::          n_exp_binch1_MTW_fakeEl_uue_proc_ZZZ_amc = 0.179573
+ 17) RooRealVar::              n_exp_binch1_MTW_fakeEl_uue_proc_tHq = 0.000422748
+ 18) RooRealVar::             n_exp_binch1_MTW_fakeEl_uue_proc_tWll = 0.0935851
+ 19) RooRealVar::          n_exp_binch1_MTW_fakeEl_uue_proc_tZq_amc = 2.02841
+ 20) RooRealVar::       n_exp_binch1_MTW_fakeEl_uue_proc_ttHToNonbb = 0.0602518
+ 21) RooRealVar:: n_exp_binch2_MTW_FakeMu_eeu_proc_TTWJetsToLNu_amc = 0.0879768
+ 22) RooRealVar::  n_exp_binch2_MTW_FakeMu_eeu_proc_TTZToLLNuNu_amc = 2.16956
+ 23) RooRealVar::          n_exp_binch2_MTW_FakeMu_eeu_proc_WZZ_amc = 0.634001
+ 24) RooRealVar::           n_exp_binch2_MTW_FakeMu_eeu_proc_ZZTo4L = 4.34309
+ 25) RooRealVar::          n_exp_binch2_MTW_FakeMu_eeu_proc_ZZZ_amc = 0.099239
+ 26) RooRealVar::              n_exp_binch2_MTW_FakeMu_eeu_proc_tHq = 0.00030814
+ 27) RooRealVar::             n_exp_binch2_MTW_FakeMu_eeu_proc_tWll = 0.0681244
+ 28) RooRealVar::          n_exp_binch2_MTW_FakeMu_eeu_proc_tZq_amc = 1.2951
+ 29) RooRealVar::       n_exp_binch2_MTW_FakeMu_eeu_proc_ttHToNonbb = 0.0360145
+ 30) RooRealVar::        n_exp_binch2_MTW_FakeMu_uuu_proc_STtW_atop = 0.342607
+ 31) RooRealVar::         n_exp_binch2_MTW_FakeMu_uuu_proc_STtW_top = 0.522145
+ 32) RooRealVar:: n_exp_binch2_MTW_FakeMu_uuu_proc_TTWJetsToLNu_amc = 0.189909
+ 33) RooRealVar::  n_exp_binch2_MTW_FakeMu_uuu_proc_TTZToLLNuNu_amc = 4.64426
+ 34) RooRealVar::          n_exp_binch2_MTW_FakeMu_uuu_proc_WZZ_amc = 1.80932
+ 35) RooRealVar::           n_exp_binch2_MTW_FakeMu_uuu_proc_ZZTo4L = 11.3712
+ 36) RooRealVar::          n_exp_binch2_MTW_FakeMu_uuu_proc_ZZZ_amc = 0.23151
+ 37) RooRealVar::              n_exp_binch2_MTW_FakeMu_uuu_proc_tHq = 0.000786632
+ 38) RooRealVar::             n_exp_binch2_MTW_FakeMu_uuu_proc_tWll = 0.150747
+ 39) RooRealVar::          n_exp_binch2_MTW_FakeMu_uuu_proc_tZq_amc = 3.03183
+ 40) RooRealVar::       n_exp_binch2_MTW_FakeMu_uuu_proc_ttHToNonbb = 0.126273
+ 41) RooRealVar::                                          r_FakeEl = 1
+ 42) RooRealVar::                                          r_FakeMu = 1
+ 43) RooRealVar::                                              r_WZ = 1
+Obs: 
+  1) RooCategory:: CMS_channel = ch2_MTW_FakeMu_uuu(idx = 2)
+
+  2) RooRealVar::    CMS_th1x = 19.5
+Running Minos for POI 
+Real time 0:00:00, CP time 0.140
+
+Running Minos for POI 
+Real time 0:00:00, CP time 0.140
+
+Running Minos for POI 
+Real time 0:00:00, CP time 0.140
+
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+   r_FakeMu :    +0.545   -0.171/+0.179 (68%)
+   r_FakeEl :    +0.590   -0.085/+0.086 (68%)
+       r_WZ :    +0.841   -0.054/+0.055 (68%)
+Done in 0.00 min (cpu), 0.02 min (real)
