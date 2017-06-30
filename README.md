@@ -49,6 +49,13 @@ Get Nuissance parameter impacts:
  
  Get the rate parameters: -v 3
  
+ Do a multidim fit: 
+ text2workspace.py MTW_fakeMu_multidim.txt -m 125 -P HiggsAnalysis.CombinedLimit.PhysicsModel:multiSignalModel --PO verbose --PO 'map=.*/FakeMu:r_FakeMu[1,0,2]' --PO 'map=.*/WZTo3LNu_amc:r_WZ[1,0,2]' 
+ 
+ combine -M MultiDimFit MTW_fakeMu.root -S 0 
+ 
+ 
+ 
 Tutorial:
 - https://indico.cern.ch/event/587542/contributions/2368219/attachments/1371995/2081333/TopPAG_HComb_Nov15.pdf
 - CMS DAS: https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchool2014HiggsCombPropertiesExercise#Intro_I_The_Higgs_at_CMS
