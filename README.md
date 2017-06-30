@@ -54,6 +54,8 @@ Get Nuissance parameter impacts:
  
  combine -M MultiDimFit MTW_fakeMu.root -S 0 
  
+ combine -M Asymptotic Zut_all.root 
+ combine -M MaxLikelihoodFit Zut_all.root  --saveNormalizations --plots --saveShapes -t -1 --expectSignal 0 
  
  
 Tutorial:
